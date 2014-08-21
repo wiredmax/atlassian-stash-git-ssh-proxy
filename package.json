@@ -1,0 +1,17 @@
+{
+  "name": "atlassian-stash-git-ssh-proxy",
+  "version": "0.0.1",
+  "description": "A very simple proxy for Atlassian Stash - GIT+SSH proxy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wiredmax/atlassian-stash-git-ssh-proxy"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Maxime Poulin <mpoulin@roux.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "tcp-proxy":"0.0.1"
+  }
+}
